@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+.cabeçalho{
+
+    background-color: rgb(49, 0, 185);
+    padding: 0.5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navegação{
+
+    display: inline;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    float: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(49, 0, 185);
+}
+.logo{
+
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.logo2{
+    width: 70px;
+    margin-top: 0px;
+    margin-left: 580px;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+nav ul{
+
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+
+    display: inline-block;
+    margin: 0 80px; 
+    padding: 30px;
+    text-align: center;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: rgb(67, 0, 224);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.titulos{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.navegação1{
+
+    margin: 0px;
+    padding: 5px;
+    height: 12vh; /* Preenche a altura da janela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+.navegação1{
+    display: flex;
+    justify-content: center; /* Centraliza os botões dentro da navbar */
+}
+
+button {
+    background-color: white; /* Fundo branco para contraste */
+    color: rgb(67, 0, 224); /* Texto roxo */
+    border: 2px solid rgb(67, 0, 224); /* Borda roxa */
+    border-radius: 12px; /* Borda arredondada */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 0 30px; /* Espaçamento entre botões */
+    cursor: pointer; /* Cursor para indicar clicável */
+    transition: background-color 0.3s; /* Animação para mudanças de fundo */
+}
+
+button:hover {
+    background-color: rgb(67, 0, 224); /* Fundo roxo ao passar o mouse */
+    color: white; /* Texto branco ao passar o mouse */
+}
+
+.opçoes-de-esclha{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(67, 0, 224);
+    text-align: center;
+}
+
+.opções{
+    margin: 0px;
+    padding: 0px;
+    height: 15vh; /* Preenche a altura da janela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+
+    display: flex;
+    justify-content: center; /* Centraliza os botões dentro da navbar */
+
+    background-color: white; /* Fundo branco para contraste */
+    color: rgb(67, 0, 224); /* Texto roxo */
+    border: 2px solid rgb(67, 0, 224); /* Borda roxa */
+    border-radius: 12px; /* Borda arredondada */
+    padding: 10px 10px; /* Espaçamento interno */
+    margin: 0 10px; /* Espaçamento entre botões */
+    cursor: pointer; /* Cursor para indicar clicável */
+    transition: background-color 0.3s; /* Animação para mudanças de fundo */
+}
+
+/*so exemplo para o meu site*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+}
+
+.footer {
+    background-color: #333; /* Cor de fundo do rodapé (cinza escuro) */
+    color: white; /* Cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaçamento interno do rodapé */
+    position: relative; /* Posicionamento absoluto para ancorar na parte inferior */
+    bottom: 0; /* Alinha na parte inferior da página */
+    width: 100%; /* Largura total */
+}
+
+.footer a {
+    color: #ffffff; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+.gallery {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    max-width: 800px; /* Defina a largura máxima do carrossel */
+    margin: 0 auto; /* Centralizar o carrossel */
+}
+.gallery img {
+    margin: 80px;
+    width: 80%;
+    transition: transform 0.5s ease;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
